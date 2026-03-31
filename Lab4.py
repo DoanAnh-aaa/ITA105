@@ -10,8 +10,8 @@ dataset = {
 df = pd.DataFrame(dataset)
 print(df)
 #3
-X = df["Hours"]
-Y = df["Score"]
+X = df[["Hours"]]
+Y = df[["Score"]]
 #4
 model = LinearRegression()
 #5
